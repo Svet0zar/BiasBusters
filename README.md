@@ -42,6 +42,12 @@ To set up the required environment, install the necessary dependencies:
    ```bash
    pip list
    ```
+## Slide Deck Presentation
+
+Check out the accompanying presentation slide deck:
+
+[📊 BiasBusters Slide Deck](https://docs.google.com/presentation/d/1PBmEEcb-yhxCvmPjFer8XWA10j4HkF9Rvu4wzcrSfu0/edit?usp=sharing)
+
 
 
 [1] King, T., Wu, Z., Koshiyama, A., Kazim, E., & Treleaven, P. (2024). HEARTS: A holistic framework for explainable, sustainable, and robust text stereotype detection. arXiv. https://arxiv.org/abs/2409.11579
