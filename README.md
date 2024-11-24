@@ -7,18 +7,41 @@ Team Members: Erin Sarlak, Charvi Maurya, Jackson Cheung, Alexander Catterall, S
 We aim to address the findings of King, Wu, Koshiyama, Kazim, and Treleaven (2024), who identified the low availability of a high-quality labeled dataset as a limiting factor in stereotyping classification models [1].
 
 
-# Install Dependencies
+## Getting Started
 
-To install the required dependencies for this project, follow these steps:
+### Clone the Repository
 
-1. Make sure you have Python installed. You can download it from [python.org](https://www.python.org/).
+To download the project, run the following commands:
 
-2. Open a terminal or command prompt.
+1. Clone the repository to your local machine:
 
-3. Run the following command to install the dependencies listed in `requirements.txt`:
+   ```bash
+   git clone https://github.com/Svet0zar/BiasBusters.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd BiasBusters
+   ```
+
+### Install Dependencies
+
+To set up the required environment, install the necessary dependencies:
+
+1. Make sure you have Python installed. If not, download and install it from [python.org](https://www.python.org/).
+
+2. Install the dependencies listed in `requirements.txt` by running:
 
    ```bash
    pip install -r requirements.txt
+   ```
+
+3. Verify that all dependencies were installed successfully:
+
+   ```bash
+   pip list
+   ```
 
 
 [1] King, T., Wu, Z., Koshiyama, A., Kazim, E., & Treleaven, P. (2024). HEARTS: A holistic framework for explainable, sustainable, and robust text stereotype detection. arXiv. https://arxiv.org/abs/2409.11579
