@@ -42,6 +42,24 @@ To set up the required environment, install the necessary dependencies:
    ```bash
    pip list
    ```
+### Add Your OpenAI API Key
+
+To use OpenAI’s API with BiasBusters, you need to provide your API key. Follow these steps:
+
+1. Create a `.env` file in the root directory of the project (if it doesn’t already exist).
+
+2. Open the `.env` file and add your OpenAI API key in the following format:
+
+   ```plaintext
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+3. Save the `.env` file.
+
+Make sure to replace `your_api_key_here` with the actual API key you received from OpenAI. If you don’t have an API key yet, you can get one by signing up at [OpenAI](https://platform.openai.com/signup/).
+
+> **Note:** Never publicly share your `.env` file or API key to protect your credentials.
+
 ## Slide Deck Presentation
 
 Check out the accompanying presentation slide deck:
